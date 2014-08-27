@@ -10,5 +10,7 @@
 #import "_UIBackdropView.h"
 
 @interface ViewController : UIViewController
-
+{
+    _UIBackdropView *testBlur;
+}
 @end
