@@ -7,6 +7,9 @@ OBSBlur takes the iOS7+ blurs Private Frameworks and makes it available for your
 ***
 ##How TO Add To Your Project
 
+1) Add the `_UIBackdropView.h` to your project
+2) Than add the blur like so...
+
 ### With Color Tint
 `_UIBackdropView  *testBlur = [[_UIBackdropView alloc] initWithStyle:2060];`
 <br>`[[testBlur inputSettings] setColorTint:[UIColor colorWithRed:0.5 green:0.5 blue:0.0 alpha:1.0]];`
