@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13884C319AE3EBB00E3BBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884C219AE3EBB00E3BBEE /* Foundation.framework */; };
+		C13884C519AE3EBB00E3BBEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884C419AE3EBB00E3BBEE /* CoreGraphics.framework */; };
+		C13884C719AE3EBB00E3BBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884C619AE3EBB00E3BBEE /* UIKit.framework */; };
+		C13884CD19AE3EBB00E3BBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13884CB19AE3EBB00E3BBEE /* InfoPlist.strings */; };
+		C13884CF19AE3EBB00E3BBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13884CE19AE3EBB00E3BBEE /* main.m */; };
+		C13884D319AE3EBB00E3BBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C13884D219AE3EBB00E3BBEE /* AppDelegate.m */; };
+		C13884D619AE3EBB00E3BBEE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13884D419AE3EBB00E3BBEE /* Main_iPhone.storyboard */; };
+		C13884D919AE3EBB00E3BBEE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13884D719AE3EBB00E3BBEE /* Main_iPad.storyboard */; };
+		C13884DC19AE3EBB00E3BBEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13884DB19AE3EBB00E3BBEE /* ViewController.m */; };
+		C13884DE19AE3EBB00E3BBEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13884DD19AE3EBB00E3BBEE /* Images.xcassets */; };
+		C13884E519AE3EBB00E3BBEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884E419AE3EBB00E3BBEE /* XCTest.framework */; };
+		C13884E619AE3EBB00E3BBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884C219AE3EBB00E3BBEE /* Foundation.framework */; };
+		C13884E719AE3EBB00E3BBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13884C619AE3EBB00E3BBEE /* UIKit.framework */; };
+		C13884EF19AE3EBB00E3BBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13884ED19AE3EBB00E3BBEE /* InfoPlist.strings */; };
+		C13884F119AE3EBB00E3BBEE /* OBSBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13884F019AE3EBB00E3BBEE /* OBSBlurTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C13884E819AE3EBB00E3BBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C13884B719AE3EBB00E3BBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13884BE19AE3EBB00E3BBEE;
+			remoteInfo = OBSBlur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C13884BF19AE3EBB00E3BBEE /* OBSBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBSBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13884C219AE3EBB00E3BBEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C13884C419AE3EBB00E3BBEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C13884C619AE3EBB00E3BBEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C13884CA19AE3EBB00E3BBEE /* OBSBlur-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OBSBlur-Info.plist"; sourceTree = "<group>"; };
+		C13884CC19AE3EBB00E3BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C13884CE19AE3EBB00E3BBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C13884D019AE3EBB00E3BBEE /* OBSBlur-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OBSBlur-Prefix.pch"; sourceTree = "<group>"; };
+		C13884D119AE3EBB00E3BBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C13884D219AE3EBB00E3BBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C13884D519AE3EBB00E3BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C13884D819AE3EBB00E3BBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C13884DA19AE3EBB00E3BBEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C13884DB19AE3EBB00E3BBEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C13884DD19AE3EBB00E3BBEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C13884E319AE3EBB00E3BBEE /* OBSBlurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBSBlurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13884E419AE3EBB00E3BBEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C13884EC19AE3EBB00E3BBEE /* OBSBlurTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OBSBlurTests-Info.plist"; sourceTree = "<group>"; };
+		C13884EE19AE3EBB00E3BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C13884F019AE3EBB00E3BBEE /* OBSBlurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBSBlurTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C13884BC19AE3EBB00E3BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884C519AE3EBB00E3BBEE /* CoreGraphics.framework in Frameworks */,
+				C13884C719AE3EBB00E3BBEE /* UIKit.framework in Frameworks */,
+				C13884C319AE3EBB00E3BBEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13884E019AE3EBB00E3BBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884E519AE3EBB00E3BBEE /* XCTest.framework in Frameworks */,
+				C13884E719AE3EBB00E3BBEE /* UIKit.framework in Frameworks */,
+				C13884E619AE3EBB00E3BBEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13884B619AE3EBB00E3BBEE = {
+			isa = PBXGroup;
+			children = (
+				C13884C819AE3EBB00E3BBEE /* OBSBlur */,
+				C13884EA19AE3EBB00E3BBEE /* OBSBlurTests */,
+				C13884C119AE3EBB00E3BBEE /* Frameworks */,
+				C13884C019AE3EBB00E3BBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C13884C019AE3EBB00E3BBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13884BF19AE3EBB00E3BBEE /* OBSBlur.app */,
+				C13884E319AE3EBB00E3BBEE /* OBSBlurTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13884C119AE3EBB00E3BBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13884C219AE3EBB00E3BBEE /* Foundation.framework */,
+				C13884C419AE3EBB00E3BBEE /* CoreGraphics.framework */,
+				C13884C619AE3EBB00E3BBEE /* UIKit.framework */,
+				C13884E419AE3EBB00E3BBEE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13884C819AE3EBB00E3BBEE /* OBSBlur */ = {
+			isa = PBXGroup;
+			children = (
+				C13884D119AE3EBB00E3BBEE /* AppDelegate.h */,
+				C13884D219AE3EBB00E3BBEE /* AppDelegate.m */,
+				C13884D419AE3EBB00E3BBEE /* Main_iPhone.storyboard */,
+				C13884D719AE3EBB00E3BBEE /* Main_iPad.storyboard */,
+				C13884DA19AE3EBB00E3BBEE /* ViewController.h */,
+				C13884DB19AE3EBB00E3BBEE /* ViewController.m */,
+				C13884DD19AE3EBB00E3BBEE /* Images.xcassets */,
+				C13884C919AE3EBB00E3BBEE /* Supporting Files */,
+			);
+			path = OBSBlur;
+			sourceTree = "<group>";
+		};
+		C13884C919AE3EBB00E3BBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13884CA19AE3EBB00E3BBEE /* OBSBlur-Info.plist */,
+				C13884CB19AE3EBB00E3BBEE /* InfoPlist.strings */,
+				C13884CE19AE3EBB00E3BBEE /* main.m */,
+				C13884D019AE3EBB00E3BBEE /* OBSBlur-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C13884EA19AE3EBB00E3BBEE /* OBSBlurTests */ = {
+			isa = PBXGroup;
+			children = (
+				C13884F019AE3EBB00E3BBEE /* OBSBlurTests.m */,
+				C13884EB19AE3EBB00E3BBEE /* Supporting Files */,
+			);
+			path = OBSBlurTests;
+			sourceTree = "<group>";
+		};
+		C13884EB19AE3EBB00E3BBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13884EC19AE3EBB00E3BBEE /* OBSBlurTests-Info.plist */,
+				C13884ED19AE3EBB00E3BBEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C13884BE19AE3EBB00E3BBEE /* OBSBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13884F419AE3EBB00E3BBEE /* Build configuration list for PBXNativeTarget "OBSBlur" */;
+			buildPhases = (
+				C13884BB19AE3EBB00E3BBEE /* Sources */,
+				C13884BC19AE3EBB00E3BBEE /* Frameworks */,
+				C13884BD19AE3EBB00E3BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBSBlur;
+			productName = OBSBlur;
+			productReference = C13884BF19AE3EBB00E3BBEE /* OBSBlur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C13884E219AE3EBB00E3BBEE /* OBSBlurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13884F719AE3EBB00E3BBEE /* Build configuration list for PBXNativeTarget "OBSBlurTests" */;
+			buildPhases = (
+				C13884DF19AE3EBB00E3BBEE /* Sources */,
+				C13884E019AE3EBB00E3BBEE /* Frameworks */,
+				C13884E119AE3EBB00E3BBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C13884E919AE3EBB00E3BBEE /* PBXTargetDependency */,
+			);
+			name = OBSBlurTests;
+			productName = OBSBlurTests;
+			productReference = C13884E319AE3EBB00E3BBEE /* OBSBlurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C13884B719AE3EBB00E3BBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Orangebananaspy;
+				TargetAttributes = {
+					C13884E219AE3EBB00E3BBEE = {
+						TestTargetID = C13884BE19AE3EBB00E3BBEE;
+					};
+				};
+			};
+			buildConfigurationList = C13884BA19AE3EBB00E3BBEE /* Build configuration list for PBXProject "OBSBlur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C13884B619AE3EBB00E3BBEE;
+			productRefGroup = C13884C019AE3EBB00E3BBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C13884BE19AE3EBB00E3BBEE /* OBSBlur */,
+				C13884E219AE3EBB00E3BBEE /* OBSBlurTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C13884BD19AE3EBB00E3BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884D919AE3EBB00E3BBEE /* Main_iPad.storyboard in Resources */,
+				C13884DE19AE3EBB00E3BBEE /* Images.xcassets in Resources */,
+				C13884D619AE3EBB00E3BBEE /* Main_iPhone.storyboard in Resources */,
+				C13884CD19AE3EBB00E3BBEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13884E119AE3EBB00E3BBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884EF19AE3EBB00E3BBEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C13884BB19AE3EBB00E3BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884DC19AE3EBB00E3BBEE /* ViewController.m in Sources */,
+				C13884D319AE3EBB00E3BBEE /* AppDelegate.m in Sources */,
+				C13884CF19AE3EBB00E3BBEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13884DF19AE3EBB00E3BBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13884F119AE3EBB00E3BBEE /* OBSBlurTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C13884E919AE3EBB00E3BBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13884BE19AE3EBB00E3BBEE /* OBSBlur */;
+			targetProxy = C13884E819AE3EBB00E3BBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C13884CB19AE3EBB00E3BBEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13884CC19AE3EBB00E3BBEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C13884D419AE3EBB00E3BBEE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13884D519AE3EBB00E3BBEE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C13884D719AE3EBB00E3BBEE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13884D819AE3EBB00E3BBEE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C13884ED19AE3EBB00E3BBEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C13884EE19AE3EBB00E3BBEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C13884F219AE3EBB00E3BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C13884F319AE3EBB00E3BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C13884F519AE3EBB00E3BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OBSBlur/OBSBlur-Prefix.pch";
+				INFOPLIST_FILE = "OBSBlur/OBSBlur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C13884F619AE3EBB00E3BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OBSBlur/OBSBlur-Prefix.pch";
+				INFOPLIST_FILE = "OBSBlur/OBSBlur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C13884F819AE3EBB00E3BBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OBSBlur.app/OBSBlur";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OBSBlur/OBSBlur-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OBSBlurTests/OBSBlurTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C13884F919AE3EBB00E3BBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OBSBlur.app/OBSBlur";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OBSBlur/OBSBlur-Prefix.pch";
+				INFOPLIST_FILE = "OBSBlurTests/OBSBlurTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C13884BA19AE3EBB00E3BBEE /* Build configuration list for PBXProject "OBSBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13884F219AE3EBB00E3BBEE /* Debug */,
+				C13884F319AE3EBB00E3BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13884F419AE3EBB00E3BBEE /* Build configuration list for PBXNativeTarget "OBSBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13884F519AE3EBB00E3BBEE /* Debug */,
+				C13884F619AE3EBB00E3BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C13884F719AE3EBB00E3BBEE /* Build configuration list for PBXNativeTarget "OBSBlurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13884F819AE3EBB00E3BBEE /* Debug */,
+				C13884F919AE3EBB00E3BBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C13884B719AE3EBB00E3BBEE /* Project object */;
+}
