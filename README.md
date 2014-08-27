@@ -3,7 +3,7 @@
 This is one of the easiest ways to add a Blur to your projects.
 OBSBlur takes the iOS7+ blurs Private Frameworks and makes it available for your projects.
 ***
-![](http://obsvip.ipastore.me/Github/OBSBlur-Preview.gif)
+[Preview](http://obsvip.ipastore.me/Github/OBSBlur-Preview.gif)
 ***
 ##How TO Add To Your Project
 
