@@ -34,7 +34,19 @@
     testBlur.alpha = 0.0f;
 }
 
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    //Showing blur view
+    testBlur.alpha = 1.0;
+    CATransition *showBlurSave = [CATransition animation];
+	showBlurSave.delegate = self;
+	showBlurSave.duration = 0.5f;
+	showBlurSave.fillMode = kCAFillModeForwards;
+	showBlurSave.removedOnCompletion = YES;
+	showBlurSave.type = kCATransitionPush;
+	showBlurSave.subtype = kCATransitionFromLeft;
+	[testBlur.layer addAnimation:showBlurSave forKey:@"showBlurSave"];
+}
 
 - (void)didReceiveMemoryWarning
 {
