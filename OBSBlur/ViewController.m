@@ -40,12 +40,19 @@
     testBlur.alpha = 1.0;
     CATransition *showBlurSave = [CATransition animation];
 	showBlurSave.delegate = self;
-	showBlurSave.duration = 0.5f;
+	showBlurSave.duration = 10.0f;
 	showBlurSave.fillMode = kCAFillModeForwards;
 	showBlurSave.removedOnCompletion = YES;
 	showBlurSave.type = kCATransitionPush;
 	showBlurSave.subtype = kCATransitionFromLeft;
 	[testBlur.layer addAnimation:showBlurSave forKey:@"showBlurSave"];
+    
+    UILabel *testLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 80)];
+	testLabel.text = @"Orangebananaspy";
+	[testLabel setFont:[UIFont fontWithName:@"HelveticaNeue-UltraLight" size:36]];
+	testLabel.textAlignment = NSTextAlignmentCenter;
+	testLabel.textColor = [UIColor whiteColor];
+	[testBlur addSubview:testLabel];
 }
 
 - (void)didReceiveMemoryWarning
