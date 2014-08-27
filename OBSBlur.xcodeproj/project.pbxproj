@@ -55,6 +55,7 @@
 		C13884EC19AE3EBB00E3BBEE /* OBSBlurTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OBSBlurTests-Info.plist"; sourceTree = "<group>"; };
 		C13884EE19AE3EBB00E3BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C13884F019AE3EBB00E3BBEE /* OBSBlurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBSBlurTests.m; sourceTree = "<group>"; };
+		C1D1727F19AE46D900193B99 /* _UIBackdropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _UIBackdropView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		C13884B619AE3EBB00E3BBEE = {
 			isa = PBXGroup;
 			children = (
+				C1D1728019AE46EE00193B99 /* Header */,
 				C13884C819AE3EBB00E3BBEE /* OBSBlur */,
 				C13884EA19AE3EBB00E3BBEE /* OBSBlurTests */,
 				C13884C119AE3EBB00E3BBEE /* Frameworks */,
@@ -153,6 +155,15 @@
 				C13884ED19AE3EBB00E3BBEE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1D1728019AE46EE00193B99 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1727F19AE46D900193B99 /* _UIBackdropView.h */,
+			);
+			name = Header;
+			path = OBSBlur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,6 +481,7 @@
 				C13884F619AE3EBB00E3BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C13884F719AE3EBB00E3BBEE /* Build configuration list for PBXNativeTarget "OBSBlurTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +490,7 @@
 				C13884F919AE3EBB00E3BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

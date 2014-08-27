@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "_UIBackdropView.h"
 
 @interface ViewController : UIViewController
 
